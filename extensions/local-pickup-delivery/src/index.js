@@ -21,16 +21,14 @@ const DELIVERY_OPTION = {
       }
     }
   ],
-};
+};    
 
 export default /**
  * @param {InputQuery} input
  * @returns {FunctionResult}
  */
 (input) => {
-  const configuration = JSON.parse(
-    input?.deliveryOptionGenerator?.metafield?.value ?? "{}"
-  );
+console.log(JSON.stringify(input),"input")
 
   return DELIVERY_OPTION;
 };
