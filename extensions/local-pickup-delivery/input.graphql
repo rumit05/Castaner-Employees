@@ -13,7 +13,6 @@ query Input {
     deliveryGroup {
       id
     }
-    
   }
   locations {
     handle
@@ -28,6 +27,3 @@ query Input {
     }
   }
 }
-
-
-

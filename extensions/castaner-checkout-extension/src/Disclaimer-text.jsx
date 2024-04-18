@@ -13,6 +13,7 @@ function Extension() {
 
 
   const {settings} = useApi()
+  console.log("seeeting" , settings)
 
   return (
     // <Text appearance='decorative' emphasis='bold'>BEFORE COMPLETING THE PURCHASE, CHECK THAT THE INFORMATION IS CORRECT</Text>
