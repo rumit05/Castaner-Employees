@@ -2,18 +2,18 @@
 
 name = "Castaner Extension"
 client_id = "d6aa2feb73f46a7ea05d4f24b5ab8a1e"
-application_url = "https://country-performing-adware-western.trycloudflare.com"
+application_url = "https://convicted-caught-damage-floating.trycloudflare.com"
 embedded = true
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "read_checkout_branding_settings,write_checkout_branding_settings,write_pixels,read_shipping,write_shipping,read_customer_events,read_pixels,read_content,write_content,write_products,read_products,read_delivery_customizations,write_delivery_customizations,read_discounts,write_discounts,read_customers,write_customers"
+scopes = "read_checkout_branding_settings,read_content,read_customer_events,read_customers,read_delivery_customizations,read_discounts,read_pixels,read_products,read_shipping,write_cart_transforms,write_checkout_branding_settings,write_content,write_customers,write_delivery_customizations,write_discounts,write_pixels,write_products,write_shipping"
 
 [auth]
 redirect_urls = [
-  "https://country-performing-adware-western.trycloudflare.com/auth/callback",
-  "https://country-performing-adware-western.trycloudflare.com/auth/shopify/callback",
-  "https://country-performing-adware-western.trycloudflare.com/api/auth/callback"
+  "https://convicted-caught-damage-floating.trycloudflare.com/auth/callback",
+  "https://convicted-caught-damage-floating.trycloudflare.com/auth/shopify/callback",
+  "https://convicted-caught-damage-floating.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]

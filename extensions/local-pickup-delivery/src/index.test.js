@@ -7,7 +7,7 @@ import deliveryOptionGenerator from './index';
 
 describe('local pickup delivery option generator function', () => {
   it('returns a delivery option', () => {
-    const result = deliveryOptionGenerator({
+    const result = deliveryOptionGenerator ({
       cart: {
         lines: [
           {
@@ -17,6 +17,7 @@ describe('local pickup delivery option generator function', () => {
       },
       fulfillmentGroups: [
         {
+       
           handle:  "1",
           lines: [
             {
