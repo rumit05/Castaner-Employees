@@ -12,7 +12,8 @@ export default /**
 * @param {InputQuery} input
 * @returns {FunctionResult}
 */
-  (input) => {console.log("data", JSON.stringify(input))
+  (input) => {
+    console.log("data", JSON.stringify(input))
       const hasBulkyVariant = input.cart.lines.some((line) => {
         switch (line.merchandise.__typename) {
           case 'ProductVariant':
