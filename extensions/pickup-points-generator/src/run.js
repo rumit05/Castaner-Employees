@@ -1,4 +1,4 @@
-export function run(input) {
+export function run(input) { console.log("test");
     const { fetchResult } = input;
     const status = fetchResult?.status;
     const body = fetchResult?.body;
@@ -34,8 +34,8 @@ function buildPickupPointDeliveryOption(externalApiDeliveryPoint) {
 
 function buildProvider() {
     return {
-        name: "Shopify Javascript Demo",
-        logoUrl: "https://cdn.shopify.com/s/files/1/0628/3830/9033/files/shopify_icon_146101.png?v=1706120545",
+        name: "GLS",
+        logoUrl: "https://cdn.shopify.com/s/files/1/0517/2451/7546/files/GLS.png",
     };
 }
 

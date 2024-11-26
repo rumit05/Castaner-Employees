@@ -2,7 +2,7 @@
 
 client_id = "d6aa2feb73f46a7ea05d4f24b5ab8a1e"
 name = "Castaner Extension"
-application_url = "https://concept-places-wage-galaxy.trycloudflare.com"
+application_url = "https://table-cabinets-visited-gradually.trycloudflare.com"
 embedded = true
 
 [build]
@@ -16,9 +16,9 @@ scopes = "read_content,read_customer_events,read_customers,read_delivery_customi
 
 [auth]
 redirect_urls = [
-  "https://concept-places-wage-galaxy.trycloudflare.com/auth/callback",
-  "https://concept-places-wage-galaxy.trycloudflare.com/auth/shopify/callback",
-  "https://concept-places-wage-galaxy.trycloudflare.com/api/auth/callback"
+  "https://table-cabinets-visited-gradually.trycloudflare.com/auth/callback",
+  "https://table-cabinets-visited-gradually.trycloudflare.com/auth/shopify/callback",
+  "https://table-cabinets-visited-gradually.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
