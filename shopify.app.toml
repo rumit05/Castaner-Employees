@@ -2,7 +2,7 @@
 
 client_id = "d6aa2feb73f46a7ea05d4f24b5ab8a1e"
 name = "Castaner Extension"
-application_url = "https://table-cabinets-visited-gradually.trycloudflare.com"
+application_url = "https://charity-surgeons-stock-stamp.trycloudflare.com"
 embedded = true
 
 [build]
@@ -12,13 +12,13 @@ include_config_on_deploy = true
 
 [access_scopes]
 # Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
-scopes = "read_content,read_customer_events,read_customers,read_delivery_customizations,read_discounts,read_merchant_managed_fulfillment_orders,read_orders,read_pixels,read_products,read_shipping,write_cart_transforms,write_checkout_branding_settings,write_content,write_customers,write_delivery_customizations,write_discounts,write_pixels,write_products,write_shipping"
+scopes = "read_content,read_customer_events,read_customers,read_delivery_customizations,read_discounts,read_merchant_managed_fulfillment_orders,read_orders,read_pixels,read_products,read_shipping,write_cart_transforms,write_checkout_branding_settings,write_content,write_customers,write_delivery_customizations,write_discounts,write_orders,write_pixels,write_products,write_shipping"
 
 [auth]
 redirect_urls = [
-  "https://table-cabinets-visited-gradually.trycloudflare.com/auth/callback",
-  "https://table-cabinets-visited-gradually.trycloudflare.com/auth/shopify/callback",
-  "https://table-cabinets-visited-gradually.trycloudflare.com/api/auth/callback"
+  "https://charity-surgeons-stock-stamp.trycloudflare.com/auth/callback",
+  "https://charity-surgeons-stock-stamp.trycloudflare.com/auth/shopify/callback",
+  "https://charity-surgeons-stock-stamp.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
