@@ -2,7 +2,7 @@
 
 client_id = "d6aa2feb73f46a7ea05d4f24b5ab8a1e"
 name = "Castaner Extension"
-application_url = "https://charity-surgeons-stock-stamp.trycloudflare.com"
+application_url = "https://tulsa-guaranteed-massage-hairy.trycloudflare.com"
 embedded = true
 
 [build]
@@ -16,9 +16,9 @@ scopes = "read_content,read_customer_events,read_customers,read_delivery_customi
 
 [auth]
 redirect_urls = [
-  "https://charity-surgeons-stock-stamp.trycloudflare.com/auth/callback",
-  "https://charity-surgeons-stock-stamp.trycloudflare.com/auth/shopify/callback",
-  "https://charity-surgeons-stock-stamp.trycloudflare.com/api/auth/callback"
+  "https://tulsa-guaranteed-massage-hairy.trycloudflare.com/auth/callback",
+  "https://tulsa-guaranteed-massage-hairy.trycloudflare.com/auth/shopify/callback",
+  "https://tulsa-guaranteed-massage-hairy.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
